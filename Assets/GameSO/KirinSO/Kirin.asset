@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3987198bdc405ea42686f933b8015e, type: 3}
+  m_Name: Kirin
+  m_EditorClassIdentifier: 
+  maxHp: 1500
+  lerpSpeed: 2
+  phaseSpellSettings:
+  - name: 1
+    list:
+    - spellName: 1
+      waitTime: 1
+      change: 1
+      bullet: {fileID: 1363806708790323905, guid: d3d672f870617e04c8b60d16e931c1f7,
+        type: 3}
+      count: 30
+      delay: 0
+    - spellName: 0
+      waitTime: 2
+      change: 1
+      bullet: {fileID: 1363806708790323905, guid: d3d672f870617e04c8b60d16e931c1f7,
+        type: 3}
+      count: 40
+      delay: 0.3
+    - spellName: 1
+      waitTime: 3
+      change: 1
+      bullet: {fileID: 8760550673662863158, guid: 897c9fd9a13dbce4d81fbe57f18bf425,
+        type: 3}
+      count: 40
+      delay: 0
+    - spellName: 1
+      waitTime: 3.5
+      change: 1
+      bullet: {fileID: 8760550673662863158, guid: 897c9fd9a13dbce4d81fbe57f18bf425,
+        type: 3}
+      count: 40
+      delay: 0
+    - spellName: 0
+      waitTime: 4
+      change: 1
+      bullet: {fileID: 5190332855257656917, guid: 492826e71d8fedd499f75c3c614d136e,
+        type: 3}
+      count: 10
+      delay: 1
+    - spellName: 0
+      waitTime: 2
+      change: 1
+      bullet: {fileID: 8760550673662863158, guid: 897c9fd9a13dbce4d81fbe57f18bf425,
+        type: 3}
+      count: 40
+      delay: 0.3
+    - spellName: 0
+      waitTime: 2
+      change: 1
+      bullet: {fileID: 8760550673662863158, guid: 897c9fd9a13dbce4d81fbe57f18bf425,
+        type: 3}
+      count: 40
+      delay: 0.3
+    - spellName: 0
+      waitTime: 2
+      change: 1
+      bullet: {fileID: 8760550673662863158, guid: 897c9fd9a13dbce4d81fbe57f18bf425,
+        type: 3}
+      count: 40
+      delay: 0.3
+    - spellName: 0
+      waitTime: 2
+      change: 1
+      bullet: {fileID: 8760550673662863158, guid: 897c9fd9a13dbce4d81fbe57f18bf425,
+        type: 3}
+      count: 40
+      delay: 0.3
+  - name: 2
+    list:
+    - spellName: 0
+      waitTime: 0
+      change: 0
+      bullet: {fileID: 0}
+      count: 0
+      delay: 0
+  phaseMovementPositions:
+  - name: 1
+    list:
+    - waitTime: 2
+      position: {x: 2.76, y: 11.51}
+    - waitTime: 6
+      position: {x: -11.54, y: 12.15}
+    - waitTime: 10
+      position: {x: -6.12, y: 9.62}
+    - waitTime: 14
+      position: {x: -5.73, y: 11.82}

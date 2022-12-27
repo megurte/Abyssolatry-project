@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 528d9386d02b466599d05bef9bec0cbc, type: 3}
+  m_Name: CamillaPhaseSettings
+  m_EditorClassIdentifier: 
+  phaseOneSettings:
+    randomShooting:
+      Bullet: {fileID: 944761390255238768, guid: be76ccb98ce185b4a99c0992cbb044f9,
+        type: 3}
+      CenterPosition: {x: -6.13, y: 12.741445, z: 0}
+      Distance: 1
+      Delay: 0.01
+    reverseBulletShootIteration1:
+      Bullet: {fileID: 2857853249739434421, guid: 6b3627efbc60b174b9cd37ce811bb576,
+        type: 3}
+      CenterPosition: {x: -6.13, y: 12.741445, z: 0}
+      Distance: 2
+      Count: 70
+      RightDirection: 0
+      Angle: 90
+      Delay: 0.09
+    reverseBulletShootIteration2:
+      Bullet: {fileID: 2857853249739434421, guid: 6b3627efbc60b174b9cd37ce811bb576,
+        type: 3}
+      CenterPosition: {x: -6.13, y: 12.741445, z: 0}
+      Distance: 2
+      Count: 70
+      RightDirection: 1
+      Angle: 90
+      Delay: 0.09
+    spiralBulletShootIteration1:
+      Bullet: {fileID: 2857853249739434421, guid: 6b3627efbc60b174b9cd37ce811bb576,
+        type: 3}
+      CenterPosition: {x: -6.13, y: 12.741445, z: 0}
+      Distance: 2
+      Count: 70
+      RightDirection: 0
+      Angle: 90
+      Delay: 0.09
+    spiralBulletShootIteration2:
+      Bullet: {fileID: 2857853249739434421, guid: 6b3627efbc60b174b9cd37ce811bb576,
+        type: 3}
+      CenterPosition: {x: -6.13, y: 12.741445, z: 0}
+      Distance: 2
+      Count: 70
+      RightDirection: 1
+      Angle: 90
+      Delay: 0.09
+  phaseTwoSettings:
+    spellPropellerBulletShoot:
+      Bullet: {fileID: 2857853249739434421, guid: 6b3627efbc60b174b9cd37ce811bb576,
+        type: 3}
+      CenterPosition: {x: -6.13, y: 12.741445, z: 0}
+      Distance: 2
+      StartAngle: 30
+      StepAngle: 10
+      Delay: 0.001
+      Duration: 30
+      IsReverse: 0
+    randomShooting:
+      Bullet: {fileID: 2857853249739434421, guid: 6b3627efbc60b174b9cd37ce811bb576,
+        type: 3}
+      CenterPosition: {x: -6.13, y: 12.741445, z: 0}
+      Distance: 1
+      Delay: 0.001
+  phaseThreeSettings:
+    propellerBulletShoot:
+      Bullet: {fileID: 2857853249739434421, guid: 6b3627efbc60b174b9cd37ce811bb576,
+        type: 3}
+      CenterPosition: {x: -6.13, y: 12.741445, z: 0}
+      Distance: 1
+      StartAngle: 33
+      StepAngle: 4
+      Delay: 0.001
+      Duration: 99
+      IsReverse: 0
+    randomShootingIteration1:
+      Bullet: {fileID: 944761390255238768, guid: be76ccb98ce185b4a99c0992cbb044f9,
+        type: 3}
+      CenterPosition: {x: -6.13, y: 12.741445, z: 0}
+      Distance: 1
+      Delay: 0.01
+    randomShootingIteration2:
+      Bullet: {fileID: 944761390255238768, guid: d3d672f870617e04c8b60d16e931c1f7,
+        type: 3}
+      CenterPosition: {x: -6.13, y: 12.741445, z: 0}
+      Distance: 1
+      Delay: 0.01
+  phaseFourSettings:
+    propellerBulletShoot:
+      Bullet: {fileID: 2857853249739434421, guid: 6b3627efbc60b174b9cd37ce811bb576,
+        type: 3}
+      CenterPosition: {x: -6.13, y: 12.741445, z: 0}
+      Distance: 2
+      StartAngle: 30
+      StepAngle: 8
+      Delay: 0.06
+      Duration: 30
+      IsReverse: 1
+    propellerBulletShootIteration1:
+      Bullet: {fileID: 2857853249739434421, guid: 2ec4767d21e96d74cbbfdc22aa6b5f41,
+        type: 3}
+      CenterPosition: {x: -6.13, y: 12.741445, z: 0}
+      Distance: 2
+      StartAngle: 90
+      StepAngle: 8
+      Delay: 0.006
+      Duration: 70
+      IsReverse: 1
+    propellerBulletShootIteration2:
+      Bullet: {fileID: 2857853249739434421, guid: 6b3627efbc60b174b9cd37ce811bb576,
+        type: 3}
+      CenterPosition: {x: -6.13, y: 12.741445, z: 0}
+      Distance: 2
+      StartAngle: 180
+      StepAngle: 8
+      Delay: 0.006
+      Duration: 70
+      IsReverse: 1
+    propellerBulletShootIteration3:
+      Bullet: {fileID: 2857853249739434421, guid: 2ec4767d21e96d74cbbfdc22aa6b5f41,
+        type: 3}
+      CenterPosition: {x: -6.13, y: 12.741445, z: 0}
+      Distance: 2
+      StartAngle: 270
+      StepAngle: 8
+      Delay: 0.006
+      Duration: 70
+      IsReverse: 1
+    propellerBulletShootIteration4:
+      Bullet: {fileID: 2857853249739434421, guid: 6b3627efbc60b174b9cd37ce811bb576,
+        type: 3}
+      CenterPosition: {x: -6.13, y: 12.741445, z: 0}
+      Distance: 2
+      StartAngle: 3
+      StepAngle: 8
+      Delay: 0.006
+      Duration: 70
+      IsReverse: 1
+    randomShooting:
+      Bullet: {fileID: 944761390255238768, guid: d3d672f870617e04c8b60d16e931c1f7,
+        type: 3}
+      CenterPosition: {x: -6.13, y: 12.741445, z: 0}
+      Distance: 1
+      Delay: 0.04
+  spawnerIndexes:
+    startIndexDown: 1
+    endIndexDown: 14
+    startIndexUp: 15
+    endIndexUp: 25

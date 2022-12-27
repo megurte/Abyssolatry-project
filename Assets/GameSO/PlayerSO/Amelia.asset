@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 960ac797e5eb45dd9beec0b4aea9e195, type: 3}
+  m_Name: Amelia
+  m_EditorClassIdentifier: 
+  health: 4
+  maxHealth: 7
+  maxLevel: 4
+  level: 1
+  speed: 0.4
+  experience: 0
+  points: 0
+  experienceLoseByDamage: 30
+  destroyEffect: {fileID: 3553409664068026562, guid: 8c359fb6cec17f74f99452ec849fdeff,
+    type: 3}
+  targetBulletFrequency: 0.2
+  levelUpMap:
+    keys: 01000000020000000300000004000000
+    values: 000000000a0000001400000064000000
+  specialSettings:
+  - specialGameObject: {fileID: 7948839808337797757, guid: dd763a10d01afba429d678ec8b5c4b06,
+      type: 3}
+    specialPosition: {x: -6.292738, y: -0.5128927, z: 0}
+    damageToBoss: 300
+    specialCooldown: 7
+    special: 3
+    maxSpecials: 7

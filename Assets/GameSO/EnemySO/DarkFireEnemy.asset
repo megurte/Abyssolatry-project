@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e74ba2acb674c1947b7d9a22894182ee, type: 3}
+  m_Name: DarkFireEnemy
+  m_EditorClassIdentifier: 
+  maxHp: 30
+  counter: 20
+  cooldown: 1
+  bullet: {fileID: 2857853249739434421, guid: 2ec4767d21e96d74cbbfdc22aa6b5f41, type: 3}
+  destroyEffect: {fileID: 3553409664068026562, guid: 8c359fb6cec17f74f99452ec849fdeff,
+    type: 3}
+  spell: 1
+  moveSet: 0
+  speed: 5
+  angularSpeed: 0
+  radius: 0
+  targetPosition: {x: 0, y: 0, z: 0}
+  lootSettings:
+  - dropItem: {fileID: 1455831105463501852, guid: fb0377a92e95ef1449da879e22ae51fc,
+      type: 3}
+    dropNumber: 6
+    chance: 1
+  - dropItem: {fileID: 1455831105463501852, guid: 1eecff3cfc336ea44a2c1650dfd8f07f,
+      type: 3}
+    dropNumber: 3
+    chance: 0.5
+  - dropItem: {fileID: 1455831105463501852, guid: d980df5043e4f4b4982def6a09d463b5,
+      type: 3}
+    dropNumber: 1
+    chance: 0.01
